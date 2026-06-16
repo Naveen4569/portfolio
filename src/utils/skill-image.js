@@ -135,6 +135,8 @@ export const skillsImage = (skill) => {
       return mysql;
     case 'postgresql':
       return postgresql;
+    case 'sql':
+      return postgresql;
     case 'tailwind':
       return tailwind;
     case 'vitejs':
@@ -170,6 +172,8 @@ export const skillsImage = (skill) => {
     case 'adobe audition':
       return adobeaudition;
     case 'aws':
+      return aws;
+    case 'amazon sqs/sns':
       return aws;
     case 'deno':
       return deno;
@@ -253,9 +257,35 @@ export const skillsImage = (skill) => {
       return fastapi;
     case 'spring boot':
       return java;
+    case 'spring security':
+      return java;
+    case 'spring mvc':
+      return java;
     case 'spring webflux':
       return java;
+    case 'spring data jpa':
+      return java;
+    case 'hibernate':
+      return java;
     case 'rest apis':
+      return java;
+    case 'grpc':
+      return java;
+    case 'protobuf':
+      return java;
+    case 'microservices':
+      return java;
+    case 'event-driven architecture':
+      return aws;
+    case 'redis':
+      return docker;
+    case 'apache ignite':
+      return java;
+    case 'junit':
+      return java;
+    case 'maven':
+      return java;
+    case 'postman':
       return java;
     case 'gitlab ci/cd':
       return git;

@@ -5,7 +5,7 @@ export const personalData = {
   profile: profile,
   designation: "Software Developer",
   description:
-    "My name is Naveen Babu Ramadheni. I am a Software Developer with 1.5+ years of experience at Endava (formerly Galaxe Solutions), promoted from Associate Developer to Developer. I work primarily with Java and Spring Boot, and have hands-on experience integrating Generative AI workflows using LangChain and LangGraph. I enjoy building scalable backend services, working with Docker and GitLab CI/CD, and continuously learning new technologies.",
+    "My name is Naveen Babu Ramadheni. I am a Software Engineer with 2+ years of experience delivering Java full-stack microservices and event-driven systems across FinTech and Healthcare at Endava (formerly Galaxe Solutions). I work with Java, Spring Boot, gRPC, Redis, Amazon SQS/SNS, PostgreSQL, React.js, Docker, and GitLab CI/CD, and have hands-on experience integrating GenAI workflows using LangChain and LangGraph.",
   email: "Naveen1973465@gmail.com",
   phone: "+91 9550470342",
   address: "Bangalore, India",
