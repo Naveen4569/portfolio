@@ -2,6 +2,14 @@ import adobeXd from '../assets/svg/skills/adobe-xd.svg';
 import adobeaudition from '../assets/svg/skills/adobeaudition.svg';
 import afterEffects from '../assets/svg/skills/after-effects.svg';
 import angular from '../assets/svg/skills/angular.svg';
+import amazonec2 from '../assets/svg/skills/amazonec2.png';
+import amazoneks from '../assets/svg/skills/amazoneks.png';
+import amazonelasticache from '../assets/svg/skills/amazonelasticache.png';
+import amazonrds from '../assets/svg/skills/amazonrds.png';
+import amazons3 from '../assets/svg/skills/amazons3.png';
+import amazonsns from '../assets/svg/skills/amazonsns.png';
+import amazonsqs from '../assets/svg/skills/amazonsqs.png';
+import apacheignite from '../assets/svg/skills/apacheignite.svg';
 import aws from '../assets/svg/skills/aws.svg';
 import azure from '../assets/svg/skills/azure.svg';
 import blender from '../assets/svg/skills/blender.svg';
@@ -25,22 +33,32 @@ import flutter from '../assets/svg/skills/flutter.svg';
 import gcp from '../assets/svg/skills/gcp.svg';
 import gimp from '../assets/svg/skills/gimp.svg';
 import git from '../assets/svg/skills/git.svg';
+import github from '../assets/svg/skills/github.svg';
+import gitlab from '../assets/svg/skills/gitlab.svg';
 import go from '../assets/svg/skills/go.svg';
 import graphql from '../assets/svg/skills/graphql.svg';
+import grpc from '../assets/svg/skills/grpc.svg';
 import haxe from '../assets/svg/skills/haxe.svg';
+import hibernate from '../assets/svg/skills/hibernate.svg';
 import html from '../assets/svg/skills/html.svg';
 import illustrator from '../assets/svg/skills/illustrator.svg';
 import ionic from '../assets/svg/skills/ionic.svg';
 import java from '../assets/svg/skills/java.svg';
 import javascript from '../assets/svg/skills/javascript.svg';
+import jira from '../assets/svg/skills/jira.svg';
 import julia from '../assets/svg/skills/julia.svg';
+import junit from '../assets/svg/skills/junit.svg';
 import kotlin from '../assets/svg/skills/kotlin.svg';
+import langchain from '../assets/svg/skills/langchain.svg';
+import langgraph from '../assets/svg/skills/langgraph.svg';
 import lightroom from '../assets/svg/skills/lightroom.svg';
 import markdown from '../assets/svg/skills/markdown.svg';
 import materialui from '../assets/svg/skills/materialui.svg';
 import matlab from '../assets/svg/skills/matlab.svg';
+import maven from '../assets/svg/skills/maven.svg';
 import memsql from '../assets/svg/skills/memsql.svg';
 import microsoftoffice from '../assets/svg/skills/microsoftoffice.svg';
+import microsoftsqlserver from '../assets/svg/skills/microsoftsqlserver.svg';
 import mongoDB from '../assets/svg/skills/mongoDB.svg';
 import mysql from '../assets/svg/skills/mysql.svg';
 import nextJS from '../assets/svg/skills/nextJS.svg';
@@ -52,13 +70,17 @@ import photoshop from '../assets/svg/skills/photoshop.svg';
 import php from '../assets/svg/skills/php.svg';
 import picsart from '../assets/svg/skills/picsart.svg';
 import postgresql from '../assets/svg/skills/postgresql.svg';
+import postman from '../assets/svg/skills/postman.svg';
 import premierepro from '../assets/svg/skills/premierepro.svg';
+import protobuf from '../assets/svg/skills/protobuf.svg';
 import python from '../assets/svg/skills/python.svg';
 import pytorch from '../assets/svg/skills/pytorch.svg';
 import react from '../assets/svg/skills/react.svg';
+import redis from '../assets/svg/skills/redis.svg';
 import ruby from '../assets/svg/skills/ruby.svg';
 import selenium from '../assets/svg/skills/selenium.svg';
 import sketch from '../assets/svg/skills/sketch.svg';
+import spring from '../assets/svg/skills/spring.svg';
 import strapi from '../assets/svg/skills/strapi.svg';
 import svelte from '../assets/svg/skills/svelte.svg';
 import swift from '../assets/svg/skills/swift.svg';
@@ -174,7 +196,23 @@ export const skillsImage = (skill) => {
     case 'aws':
       return aws;
     case 'amazon sqs/sns':
-      return aws;
+      return amazonsqs;
+    case 'amazon ec2':
+      return amazonec2;
+    case 'amazon s3':
+      return amazons3;
+    case 'amazon eks':
+      return amazoneks;
+    case 'amazon rds':
+    case 'amazon rds (postgresql)':
+      return amazonrds;
+    case 'amazon elasticache':
+    case 'amazon elasticache (redis)':
+      return amazonelasticache;
+    case 'amazon sqs':
+      return amazonsqs;
+    case 'amazon sns':
+      return amazonsns;
     case 'deno':
       return deno;
     case 'django':
@@ -185,6 +223,8 @@ export const skillsImage = (skill) => {
       return gimp;
     case 'git':
       return git;
+    case 'github':
+      return github;
     case 'graphql':
       return graphql;
     case 'lightroom':
@@ -256,45 +296,49 @@ export const skillsImage = (skill) => {
     case 'fastapi':
       return fastapi;
     case 'spring boot':
-      return java;
+      return spring;
     case 'spring security':
-      return java;
+      return spring;
     case 'spring mvc':
-      return java;
+      return spring;
     case 'spring webflux':
-      return java;
+    case 'spring web flux':
+      return spring;
     case 'spring data jpa':
-      return java;
+      return spring;
     case 'hibernate':
-      return java;
+    case 'hibernate (jpa)':
+      return hibernate;
     case 'rest apis':
       return java;
     case 'grpc':
-      return java;
+      return grpc;
     case 'protobuf':
-      return java;
+      return protobuf;
     case 'microservices':
       return java;
     case 'event-driven architecture':
       return aws;
     case 'redis':
-      return docker;
+      return redis;
     case 'apache ignite':
-      return java;
+      return apacheignite;
     case 'junit':
-      return java;
+      return junit;
     case 'maven':
-      return java;
+      return maven;
     case 'postman':
-      return java;
+      return postman;
     case 'gitlab ci/cd':
-      return git;
+      return gitlab;
     case 'ms sql server':
-      return mysql;
+      return microsoftsqlserver;
     case 'langchain':
-      return python;
+      return langchain;
     case 'langgraph':
-      return python;
+      return langgraph;
+    case 'jira':
+      return jira;
     default:
       break;
   }

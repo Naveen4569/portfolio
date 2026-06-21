@@ -3,16 +3,19 @@ export const projectsData = [
     id: 1,
     name: 'Financial Compliance Platform',
     description:
-      'Financial Compliance Platform is a FinTech compliance system built around Java Spring Boot microservices and event-driven financial transaction processing. As a Developer, I engineered a feature computation microservice for 100+ deterministic derivations, integrated gRPC contracts across service boundaries, implemented Amazon SQS/SNS async pipelines with DLQ retry handling, introduced Redis caching to reduce database roundtrips and retrieval latency, containerized services with Docker, and maintained 85%+ test coverage with zero critical production defects.',
+      'Financial Compliance Platform is an AWS-backed FinTech compliance system built around Java Spring Boot microservices and event-driven financial transaction processing. As a Developer, I engineered a feature computation microservice computing 100+ deterministic derivations over financial transaction data, integrated gRPC (Protobuf) contracts across 3+ service boundaries, implemented Amazon SQS/SNS async pipelines with DLQ retry handling, used Amazon ElastiCache (Redis) and Amazon RDS (PostgreSQL) to reduce database roundtrips and feature retrieval latency, supported Amazon EKS deployments, and maintained 85%+ test coverage with zero critical production defects.',
     tools: [
       'Java',
       'Spring Boot',
-      'Microservices',
       'gRPC',
       'Protobuf',
+      'Amazon ElastiCache',
       'Redis',
-      'Amazon SQS/SNS',
+      'Amazon SQS',
+      'Amazon SNS',
+      'Amazon RDS',
       'PostgreSQL',
+      'Amazon EKS',
       'Docker',
       'GitLab CI/CD',
       'JUnit'
